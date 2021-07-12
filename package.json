@@ -1,8 +1,8 @@
 {
   "name": "@znetstar/attic-server-potd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package contains a `Resolver` for `@znetstar/attic-server` that redirects the user to either the NASA or Wikimedia Commons Picture of the Day.",
-  "main": "Atticfile.js",
+  "main": "lib/Atticfile.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
