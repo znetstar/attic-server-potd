@@ -1,0 +1,27 @@
+{
+  "name": "@znetstar/attic-server-potd",
+  "version": "1.0.0",
+  "description": "This package contains a `Resolver` for `@znetstar/attic-server` that redirects the user to either the NASA or Wikimedia Commons Picture of the Day.",
+  "main": "Atticfile.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znetstar/attic-server-potd.git"
+  },
+  "author": "Zachary R.T. Boyd <zachary@zacharyboyd.nyc>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/znetstar/attic-server-potd/issues"
+  },
+  "homepage": "https://github.com/znetstar/attic-server-potd#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.1"
+  }
+}
